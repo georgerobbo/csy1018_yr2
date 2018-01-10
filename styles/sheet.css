@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    background: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+}
+.navbar {
+    display: inline-block;
+    padding-bottom: 10px;
+    font-weight: 500;
+    align-self: center;
+    align-content: center;
+
+}
+
+.navbarsection {
+    margin-left: 700px;
+    margin-right: auto;
+    
+}
