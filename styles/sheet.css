@@ -21,6 +21,8 @@ body {
 }
 
 .logo {
+    height: auto;
+    width: auto;
     opacity: 0.4;
     filter: alpha(opacity=40);
     align-items: center;
