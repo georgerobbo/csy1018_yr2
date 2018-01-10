@@ -24,3 +24,8 @@ body {
     opacity: 0.4;
     filter: alpha(opacity=40);
 }
+
+.logobox {
+    align-self: center;
+    margin-left: 1000px;
+}
