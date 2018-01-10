@@ -27,6 +27,6 @@ body {
 }
 
 .logobox {
-    align-content: center;
+    justify-content: center;
     /*margin-left: 1000px;*/
 }
