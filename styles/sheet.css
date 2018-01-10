@@ -25,10 +25,7 @@ body {
     width: 400px;
     opacity: 0.4;
     filter: alpha(opacity=40);
-    align-items: center;
-    align-self: center;
-    align-content: center;
-    justify-content: center;
+    background-image: blue
     /* https://stackoverflow.com/questions/286275/gray-out-image-with-css Found here. */
 }
 
