@@ -23,6 +23,10 @@ body {
 .logo {
     height: 400px;
     width: 400px;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
     /* https://stackoverflow.com/questions/286275/gray-out-image-with-css Found here. */
 }
 
