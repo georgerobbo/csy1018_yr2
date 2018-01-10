@@ -23,10 +23,10 @@ body {
 .logo {
     opacity: 0.4;
     filter: alpha(opacity=40);
+    align-items: center;
     /* https://stackoverflow.com/questions/286275/gray-out-image-with-css Found here. */
 }
 
 .logobox {
-    align-items: center;
     /*margin-left: 1000px;*/
 }
