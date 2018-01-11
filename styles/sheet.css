@@ -107,3 +107,18 @@ body {
 .form {
     padding-left: 30px;
 }
+
+.socialmediacontainer {
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.socialmediasec {
+    margin-left: 800px;
+    margin-top: 157px;
+}
+
+.smedialogo {
+    height: 70px;
+    width: 70px;
+}
