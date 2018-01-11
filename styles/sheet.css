@@ -10,6 +10,9 @@ body {
     background: rgb(255, 255, 255);
     font-family: 'Raleway', sans-serif;
     color: black;
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
 }
 
 .navbar {
@@ -58,7 +61,7 @@ body {
 }
 
 .hello {
-    margin-left: 150px;
+    text-align: center
 }
 
 .maintext_box1 {
@@ -108,11 +111,6 @@ body {
     padding-left: 30px;
 }
 
-.socialmediacontainer {
-    justify-content: center;
-    align-items: flex-end;
-}
-
 .socialmediasec {
     margin-left: 800px;
     margin-top: 157px;
@@ -121,4 +119,37 @@ body {
 .smedialogo {
     height: 70px;
     width: 70px;
+}
+
+.htmlhead {
+    font-size: 3em;
+    text-align: center;
+}
+
+.atthead {
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.attributeshead {
+    text-align: center;
+    margin: 10px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 10px;
+
+}
+
+.html5terms {
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex: 1;
+
+}
+
+.anchorbox {
+    font-size: 1.7em;
 }
