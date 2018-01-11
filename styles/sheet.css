@@ -1,9 +1,15 @@
+/*
+  https://css-tricks.com/snippets/css/a-guide-to-flexbox/ extensive use of this to help with flexbox
+  Inspiration from this website http://www.nimbusnine.co/
+*/
+
 body {
     display: flex;
     flex-direction: column;
     font-size: 10px;
     background: rgb(255, 255, 255);
     font-family: 'Raleway', sans-serif;
+    color: black;
 }
 
 .navbar {
@@ -18,6 +24,13 @@ body {
     margin-left: 1250px;
     margin-right: 0px;
     font-size: 2em;
+}
+
+.navigation {
+    margin: 0px;
+    color: inherit;
+    font-size: 0.7em;
+    font-weight: 800;
 }
 
 .logo {
@@ -47,45 +60,46 @@ body {
 .hello {
     margin-left: 150px;
 }
+
 .maintext_box1 {
-   flex-basis: 30%;
-   font-size: 1.7em;
+    flex-basis: 30%;
+    font-size: 1.7em;
 }
 
 .maintext_box2 {
     flex-basis: 30%;
     font-size: 1.7em;
- }
+}
 
- .maintext_box3 {
+.maintext_box3 {
     flex-basis: 30%;
     font-size: 1.7em;
- }
-
-.logobox
-{
-    height:400px;
-    width:1150px;
-    position:relative;
 }
-.logo
-{
-    position:absolute;
-    justify-content:center;
-    top:0;
+
+.logobox {
+    height: 400px;
+    width: 1150px;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    justify-content: center;
+    top: 0;
     width: 500;
 }
-.logotext
-{
-        position: absolute;
-        top: 50%;
-        left: 930px;
-        transform: translate(-50%, -50%);
-        color: black;
-        font-size: 4em;
+
+.logotext {
+    position: absolute;
+    top: 50%;
+    left: 930px;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 4em;
+    text-shadow: 2px 2px gray;
 }
-.form_head
-{
+
+.form_head {
     margin-left: 40px;
     margin-top: -30px;
 }
