@@ -129,7 +129,6 @@ body {
 .atthead {
     font-weight: 700;
     text-align: center;
-
 }
 
 .attributeshead {
@@ -138,19 +137,22 @@ body {
     border-width: 2px;
     border-style: solid;
     padding: 10px;
-
 }
 
 .html5terms {
-
     display: flex;
     flex-direction: row;
     width: 100%;
     flex: 1;
-
 }
 
 .anchorbox {
     font-size: 1.7em;
-    
+    color: black;
+}
+
+.description {
+    font-size: 2em;
+    text-align: center;
+    color: black;
 }
