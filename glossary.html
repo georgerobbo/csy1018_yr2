@@ -13,20 +13,20 @@
     <div class="mainwrapper">
         <div class="navbar">
             <nav>
-                <section class="navbarsection" role="navigation">
+                <div class="navbarsection" role="navigation">
                     <a class="navigation" href="index.html">About me</a>
                     <a class="navigation" href="glossary.html">Glossary</a>
                     <a class="navigation" href="jobs.html">Jobs</a>
                     <a class="navigation" href="specialisation.html">My specialisation</a>
                     <a class="navigation" href="practices.html">Practices</a>
                     <a class="navigation" href="reflection.html">Reflection</a>
-                </section>
+                </div>
             </nav>
         </div>
         <div class="logobox">
 
             <div class="logo">
-                <img src="img/logo.png" style="width:100%;" "homelogo">
+                <img src="img/logo.png"  alt="homelogo">
 
             </div>
 
@@ -34,31 +34,35 @@
                 <h1> Glossary of Terms </h1>
             </div>
         </div>
+        <a id="top"></a>
         <div class="anchorbox">
-            <a name="top"></a>
-            <ul>
-                <li>
-                    <a href="#htmlterms">HTML TERMS</a>
-                </li>
-                <li>
-                    <a href="#cssterms">CSS TERMS</a>
-                </li>
-                <li>
-                    <a href="#flexterms">FLEXBOX TERMS</a>
-                </li>
-                <li>
-                    <a href="#gitterms">GITHUB TERMS</a>
-                </li>
-            </ul>
+            <div class="alist">
+                <ul>
+                    <li>
+                        <a href="#htmlterms">HTML TERMS</a>
+                    </li>
+                    <li>
+                        <a href="#cssterms">CSS TERMS</a>
+                    </li>
+                    <li>
+                        <a href="#flexterms">FLEXBOX TERMS</a>
+                    </li>
+                    <li>
+                        <a href="#gitterms">GITHUB TERMS</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="htmlhead" a name="htmlterms">
-            </a> HTML 5 Terms </div>
-        <hr>
+        <a id="htmlterms"></a>
+        <div class="htmlhead">
+            HTML 5 Terms
+            <hr> </div>
+
         <div class="description"> HTML (Hypertext Markup Language) is the standard for creating web pages. It can be used in combination, primarily,
             with CSS and JS but can be used with other languages and form of manipulation in the web page. HTML is currently
             in the 5th version.
             <br> Click
-            <a href="#top">here</a> to return to the top.</li>
+            <a href="#top">here</a> to return to the top.
         </div>
         <!-- https://www.codecademy.com/articles/glossary-html used to get the terms -->
         <div class="html5terms">
@@ -144,12 +148,10 @@
                     <u>FORMATTING</u>
                 </h2>
                 <h3>You can use formatting tags to make words bold, underlined or italicised.
-                    <br>
-                    <ul>
-                        <li>Bold is &lt;b></li>
-                        <li>Underlined is &lt;u></li>
-                        <li>Italics is &lt;i></li>
-                    </ul>
+                    <br> Bold is &lt;b> Underlined is &lt;u> Italics is &lt;i>
+
+
+
                 </h3>
                 <h2>
                     <u>COMMENTS</u>
@@ -159,371 +161,379 @@
                     <br> Comments are made using:
                     <br> &lt;!-- Commented out -->
                 </h3>
-                <h2>
-                    <h2>
-                        <u>HEADINGS</u>
-                    </h2>
-                    <h3>Headings have 6 levels ranging from large to small This text is written in the h3 tag and the headings
-                        are written in the h2 tag.
-                        <br> &LT;h1> &LT;h2> &LT;h3> &LT;h4> &LT;h5> &LT;h5></h3>
-                    <h2>
-                        <u>LISTS</u>
-                    </h2>
-                    <h3>There are two different kinds of lists, ordered and unordered. Ordered lists are numbered while unordered
-                        lists are just bullet pointed.
-                        <ol>
-                            <li>1</li>
-                            <li>2</li>
-                            <li>&lt;ol> ordered list</li>
-                        </ol>
-                        <ul>
-                            <li>&lt;ul> unordered list</li>
-                        </ul>
-                    </h3>
-                    <h2>
 
+                <h2>
+                    <u>HEADINGS</u>
+                </h2>
+                <h3>Headings have 6 levels ranging from large to small This text is written in the h3 tag and the headings are
+                    written in the h2 tag.
+                    <br> &LT;h1> &LT;h2> &LT;h3> &LT;h4> &LT;h5> &LT;h5></h3>
+                <h2>
+                    <u>LISTS</u>
+                </h2>
+                <h3>There are two different kinds of lists, ordered and unordered. Ordered lists are numbered while unordered
+                    lists are just bullet pointed.
+
+
+
+
+                </h3>
             </div>
 
-        </div>
-        <div class="htmlhead">
-            <a name="cssterms"></a> CSS Terms </div>
-        <hr>
 
-        <div class="description">CSS (Cascading Style sheets) are used to apply a style to what would be a boring html page.
-            <br> Click
-            <a href="#top">here</a> to return to the top.</li>
-        </div>
 
-        <!-- https://www.codecademy.com/articles/glossary-css used to get the terms -->
-        <div class="html5terms">
-            <div class="attributeshead">
-                <h1 class="atthead">
-                    Selectors
 
-                </h1>
-                <h2>
-                    <u>CLASS</u>
-                </h2>
-                <h3>As mentioned before in HTML, classes are used to apply styles. These classes are picked up by CSS and manipulated.
-                </h3>
-                <h2>
-                    <u>ELEMENT</u>
-                </h2>
-                <h3>You can also manipulate html elements such as any of the &lt;h> tags or the body.
+            </div>
+            <div class="htmlhead">
+                <a id="cssterms"></a> CSS Terms
+                <hr>
+            </div>
+
+
+            <div class="description">CSS (Cascading Style sheets) are used to apply a style to what would be a boring html page.
+                <br> Click
+                <a href="#top">here</a> to return to the top.
+            </div>
+
+            <!-- https://www.codecademy.com/articles/glossary-css used to get the terms -->
+            <div class="html5terms">
+                <div class="attributeshead">
+                    <h1 class="atthead">
+                        Selectors
+
+                    </h1>
+                    <h2>
+                        <u>CLASS</u>
+                    </h2>
+                    <h3>As mentioned before in HTML, classes are used to apply styles. These classes are picked up by CSS and
+                        manipulated.
+                    </h3>
+                    <h2>
+                        <u>ELEMENT</u>
+                    </h2>
+                    <h3>You can also manipulate html elements such as any of the &lt;h> tags or the body. </h3>
 
                     <h2>
                         <u>ID</u>
                     </h2>
                     <h3>ID's are unique and can only be assigned to one item. When used in CSS only the element with the matching
-                        id will be manipulated.
-                        <h2>
-                            <u>UNIVERSAL</u>
-                        </h2>
-                        <h3>Used to select all items in a specific range most commonly the body. However they are taxing on the
-                            performance of the website.
+                        id will be manipulated.</h3>
+                    <h2>
+                        <u>UNIVERSAL</u>
+                    </h2>
+                    <h3>Used to select all items in a specific range most commonly the body. However they are taxing on the performance
+                        of the website.</h3>
 
-                            <h2>
-                                <u>GROUPING</u>
-                            </h2>
-                            <h3>You can group selectors if you want to apply the same style to many different elements. This
-                                will help you reduce down on your code and make it look tidier.
-            </div>
+                    <h2>
+                        <u>GROUPING</u>
+                    </h2>
+                    <h3>You can group selectors if you want to apply the same style to many different elements. This will help
+                        you reduce down on your code and make it look tidier.</h3>
+                </div>
 
-            <div class="attributeshead">
-                <h1 class="atthead">
-                    Design
+                <div class="attributeshead">
+                    <h1 class="atthead">
+                        Design
 
-                </h1>
-                <h2>
-                    <u>PADDING</u>
-                </h2>
-                <h3>This is the main "wrapper" for the page where all the content goes into. </h3>
-                <h2>
-                    <u>MARGIN</u>
-                </h2>
-                <h3>A div is the container used for content inside the body.
-                    <br> &LT;div>
-                </h3>
+                    </h1>
+                    <h2>
+                        <u>PADDING</u>
+                    </h2>
+                    <h3>This is the main "wrapper" for the page where all the content goes into. </h3>
+                    <h2>
+                        <u>MARGIN</u>
+                    </h2>
+                    <h3>A div is the container used for content inside the body.
+                        <br> &LT;div>
+                    </h3>
 
-                <h2>
-                    <u>FONT-FAMILY</u>
-                </h2>
-                <h3>This creates a black line all the way across the container. It can be seen in use above under "HTML 5 Terms.
-                    <br> &lt;hr>
-                </h3>
-                <h2>
-                    <u>PROPERTY</u>
-                </h2>
-                <h3>Property is the kind of style you are applying eg. borders or width.
-                </h3>
-                <h2>
-                    <u>VALUE</u>
-                </h2>
-                <h3>Self explanatory, this is the value you are applying to said property.
+                    <h2>
+                        <u>FONT-FAMILY</u>
+                    </h2>
+                    <h3>This creates a black line all the way across the container. It can be seen in use above under "HTML 5
+                        Terms.
+                        <br> &lt;hr>
+                    </h3>
+                    <h2>
+                        <u>PROPERTY</u>
+                    </h2>
+                    <h3>Property is the kind of style you are applying eg. borders or width.
+                    </h3>
+                    <h2>
+                        <u>VALUE</u>
+                    </h2>
+                    <h3>Self explanatory, this is the value you are applying to said property.
 
-                </h3>
+                    </h3>
 
 
-            </div>
+                </div>
 
-            <div class="attributeshead">
-                <h1 class="atthead">
-                    Design cont.
-                </h1>
+                <div class="attributeshead">
+                    <h1 class="atthead">
+                        Design cont.
+                    </h1>
 
-                <h2>
-                    <u>KEYWORD</u>
-                </h2>
-                <h3>Similar to value, however this is a work rather than using a number to apply the style such as using in colours
-                    or for border styles e.g red, dotted.
-                </h3>
-                <h2>
+                    <h2>
+                        <u>KEYWORD</u>
+                    </h2>
+                    <h3>Similar to value, however this is a work rather than using a number to apply the style such as using
+                        in colours or for border styles e.g red, dotted.</h3>
+
+
                     <h2>
                         <u>COMMENTS</u>
                     </h2>
                     <h3>You can use comments to explain what a part of code is doing to other people looking at your code or
-                        to remind your self at a later date. These are not visible on the website
-                        <br> Comments are made using:
-                        <br> /* Commented out */
-                        <h2>
-                            <u>RULE SET</u>
-                        </h2>
-                        <h3>A rule set is the section of css that holds the values and properties of the id or class that you
-                            want to apply it to.
-                            <br>You start it with "{" and end it with "}".</H3>
+                        to remind your self at a later date. These are not visible on the website.</h3>
+                    <br> Comments are made using:
+                    <br> /* Commented out */
+                    <h2>
+                        <u>RULE SET</u>
+                    </h2>
+                    <h3>A rule set is the section of css that holds the values and properties of the id or class that you want
+                        to apply it to.
+                        <br>You start it with "{" and end it with "}".</H3>
 
-                        <h2>
-                            <u>MEDIA QUERY</u>
-                        </h2>
-                        <h3>A media query is the ability for the website to adapt to the resolution it is being viewed on. It
-                            allows for websites to be adapted to mobiles, tablets or smaller resolutions.
+                    <h2>
+                        <u>MEDIA QUERY</u>
+                    </h2>
+                    <h3>A media query is the ability for the website to adapt to the resolution it is being viewed on. It allows
+                        for websites to be adapted to mobiles, tablets or smaller resolutions.</h3>
 
+                </div>
             </div>
-        </div>
-        <div class="htmlhead">
-            <a name="flexterms"></a> Flexbox Terms </div>
-        <hr>
-
-        <div class="description">Flexbox is a CSS web layout model. It allows the layout of your page to be responsive depending on the screen size
-            or device the end user is viewing the page on.
-            <br> Click
-            <a href="#top">here</a> to return to the top.</li>
-        </div>
-
-        <!-- https://en.wikipedia.org/wiki/CSS_flex-box_layout used to get the terms -->
-        <div class="html5terms">
-            <div class="attributeshead">
-                <h1 class="atthead">
-                    Containers
-
-                </h1>
-                <h2>
-                    <u>FLEX CONTAINER</u>
-                </h2>
-                <h3>The container is the parent element that holds all flex items.
-                </h3>
-                <h2>
-                    <u>FLEX ITEM</u>
-                </h2>
-                <h3>A flex item is the child that is inside the flex container.
-
+            <div class="htmlhead">
+                <a id="flexterms"></a> Flexbox Terms
+                <hr>
             </div>
 
-            <div class="attributeshead">
-                <h1 class="atthead">
-                    Axis
-                </h1>
-                <h3>Axis are used to manipulate where the item is on the page.</h3>
-                <h2>
-                    <u>FLEX-DIRECTION</u>
-                </h2>
-                <h3>Flex-direction decides which way the boxes will flow on the axis. This page used row. Other possible arguments
-                    are row-reverse, column and column-reverse.</h3>
-                <h2>
-                    <u>JUSTIFY-CONTENT</u>
-                </h2>
-                <h3> This determines how content is placed on the current line. The arguments for these is left, right, center,
-                    space-between and space-around.
 
-                </h3>
-
-                <h2>
-                    <u>ALIGN-ITEMS</u>
-                </h2>
-                <h3>This determines the default for how flex items are placed on the cross axis.
-
-                </h3>
-                <h2>
-                    <u>ALIGN-CONTENT</u>
-                </h2>
-                <h3>This is the default for how the cross axis is aligned.
-                </h3>
-                <h2>
-                    <u>ALIGN-SELF</u>
-                </h2>
-                <h3>This determines how a single item is placed along the cross axis and overrides align-items.
-
-                </h3>
-
-
+            <div class="description">Flexbox is a CSS web layout model. It allows the layout of your page to be responsive depending on the screen
+                size or device the end user is viewing the page on.
+                <br> Click
+                <a href="#top">here</a> to return to the top.
             </div>
 
-            <div class="attributeshead">
-                <h1 class="atthead">
-                    Misc.
-                </h1>
+            <!-- https://en.wikipedia.org/wiki/CSS_flex-box_layout used to get the terms -->
+            <div class="html5terms">
+                <div class="attributeshead">
+                    <h1 class="atthead">
+                        Containers
 
-                <h2>
-                    <u>ORDER</u>
-                </h2>
-                <h3>This allows you to determine the order that the elements are positioned in a flex box with 1 being the very
-                    left and the highest number being the right.
-                </h3>
+                    </h1>
+                    <h2>
+                        <u>FLEX CONTAINER</u>
+                    </h2>
+                    <h3>The container is the parent element that holds all flex items.
+                    </h3>
+                    <h2>
+                        <u>FLEX ITEM</u>
+                    </h2>
+                    <h3>A flex item is the child that is inside the flex container.</h3>
 
-                <h2>
-                    <u>HOW TO CREATE A FLEX BOX</u>
-                </h2>
-                <h3>To create a flex box there is two possible ways.
-                    <br> One of them being "display: flex;"
-                    <br> The other being "display: inline-flex;"
-                </h3>
+                </div>
+
+                <div class="attributeshead">
+                    <h1 class="atthead">
+                        Axis
+                    </h1>
+                    <h3>Axis are used to manipulate where the item is on the page.</h3>
+                    <h2>
+                        <u>FLEX-DIRECTION</u>
+                    </h2>
+                    <h3>Flex-direction decides which way the boxes will flow on the axis. This page used row. Other possible
+                        arguments are row-reverse, column and column-reverse.</h3>
+                    <h2>
+                        <u>JUSTIFY-CONTENT</u>
+                    </h2>
+                    <h3> This determines how content is placed on the current line. The arguments for these is left, right, center,
+                        space-between and space-around.
+
+                    </h3>
+
+                    <h2>
+                        <u>ALIGN-ITEMS</u>
+                    </h2>
+                    <h3>This determines the default for how flex items are placed on the cross axis.
+
+                    </h3>
+                    <h2>
+                        <u>ALIGN-CONTENT</u>
+                    </h2>
+                    <h3>This is the default for how the cross axis is aligned.
+                    </h3>
+                    <h2>
+                        <u>ALIGN-SELF</u>
+                    </h2>
+                    <h3>This determines how a single item is placed along the cross axis and overrides align-items.
+
+                    </h3>
 
 
+                </div>
+
+                <div class="attributeshead">
+                    <h1 class="atthead">
+                        Misc.
+                    </h1>
+
+                    <h2>
+                        <u>ORDER</u>
+                    </h2>
+                    <h3>This allows you to determine the order that the elements are positioned in a flex box with 1 being the
+                        very left and the highest number being the right.
+                    </h3>
+
+                    <h2>
+                        <u>HOW TO CREATE A FLEX BOX</u>
+                    </h2>
+                    <h3>To create a flex box there is two possible ways.
+                        <br> One of them being "display: flex;"
+                        <br> The other being "display: inline-flex;"
+                    </h3>
+
+
+                </div>
             </div>
-        </div>
-        <div class="htmlhead">
-            <a name="gitterms"></a> Github Terms </div>
-        <hr>
+            <div class="htmlhead">
+                <a id="gitterms"></a> Github Terms
+                <hr>
+            </div>
 
-        <div class="description">Github is a repository hosting service. It allows you to store your project online for easy access which then allows
-            you to put it online for easy access. Github is the largest host of source code in the world and is a priceless
-            resource to have.
-            <br> Click
-            <a href="#top">here</a> to return to the top.</li>
-        </div>
 
-        <!-- https://help.github.com/articles/github-glossary/ used to get the terms -->
-        <div class="html5terms">
-            <div class="attributeshead">
-                <h1 class="atthead">
-                    Containers
+            <div class="description">Github is a repository hosting service. It allows you to store your project online for easy access which then
+                allows you to put it online for easy access. Github is the largest host of source code in the world and is
+                a priceless resource to have.
+                <br> Click
+                <a href="#top">here</a> to return to the top.
+            </div>
 
-                </h1>
-                <h2>
-                    <u>BLAME</u>
-                </h2>
-                <h3>Blame allows you to see the last modification to each line in the file. This makes it easier to track down
-                    a bug or when and who added something to the file.
-                </h3>
-                <h2>
-                    <u>BRANCH</u>
-                </h2>
-                <h3> A branch is a parallel of the repository you're working on. It allows you to work on the file without chance
-                    of breaking the master branch file. It then allows you to merge the two when you know it works
+            <!-- https://help.github.com/articles/github-glossary/ used to get the terms -->
+            <div class="html5terms">
+                <div class="attributeshead">
+                    <h1 class="atthead">
+                        Containers
+
+                    </h1>
+                    <h2>
+                        <u>BLAME</u>
+                    </h2>
+                    <h3>Blame allows you to see the last modification to each line in the file. This makes it easier to track
+                        down a bug or when and who added something to the file.</h3>
+
+                    <h2>
+                        <u>BRANCH</u>
+                    </h2>
+                    <h3> A branch is a parallel of the repository you're working on. It allows you to work on the file without
+                        chance of breaking the master branch file. It then allows you to merge the two when you know it works.</h3>
                     <h2>
                         <u>CLONE</u>
                     </h2>
                     <h3>A clone is a local copy of your repository. This allows you to edit the file in your chosen editor and
-                        keep track of changes without actually having to be online.
-                    </h3>
+                        keep track of changes without actually having to be online.</h3>
+
                     <h2>
                         <u>COMMIT</u>
                     </h2>
                     <h3>A commit is a save to GitHub. Usually these are sent with a message to give you a rough idea of what
-                        got changed on each commit.
-                        <h2>
-                            <u>DIFF</u>
-                        </h2>
-                        <h3>Diff provides a visual description between two commits. This also makes it easy to spot a bug in
-                            the code.
-                        </h3>
-
-
-            </div>
-
-            <div class="attributeshead">
-                <h1 class="atthead">
-                    Axis
-                </h1>
-                <h2>
-                    <u>FORK</u>
-                </h2>
-                <h3>A fork is a personal copy of some other user's repository. This, like a branch allows you to work on the
-                    files without affecting the original. You can then submit a pull request to get the original author to
-                    update with your changes</h3>
-                <h2>
-                    <u>MERGE</u>
-                </h2>
-                <h3> Merging takes the changes from a branch or a fork and applies them into another.
-
-                </h3>
-
-                <h2>
-                    <u>PULL</u>
-                </h2>
-                <h3>A pull is where you take the online changes and merge them into your local copy of the repository. This is
-                    useful for if you work on two different machines and need to keep them up to date
-
-                </h3>
-                <h2>
-                    <u>PUSH</u>
-                </h2>
-                <h3>A push is the opposite of a pull where you can push the changes you've made locally to the online repository
-                    for access for someone else or on a different machine.
-                </h3>
+                        got changed on each commit.</h3>
+                    <h2>
+                        <u>DIFF</u>
+                    </h2>
+                    <h3>Diff provides a visual description between two commits. This also makes it easy to spot a bug in the
+                        code.</h3>
 
 
 
-            </div>
+                </div>
 
-            <div class="attributeshead">
-                <h1 class="atthead">
-                    Misc.
-                </h1>
+                <div class="attributeshead">
+                    <h1 class="atthead">
+                        Axis
+                    </h1>
+                    <h2>
+                        <u>FORK</u>
+                    </h2>
+                    <h3>A fork is a personal copy of some other user's repository. This, like a branch allows you to work on
+                        the files without affecting the original. You can then submit a pull request to get the original
+                        author to update with your changes</h3>
+                    <h2>
+                        <u>MERGE</u>
+                    </h2>
+                    <h3> Merging takes the changes from a branch or a fork and applies them into another.
 
-                <h2>
-                    <u>REPOSITORY</u>
-                </h2>
-                <h3>A repository is your online folder used for working on files. It stores every single commit and allows you
-                    to keep track of all changes. Repository's allow you to work on the project with multiple people.
-                </h3>
+                    </h3>
 
-                <h2>
-                    <u>MASTER</u>
-                </h2>
-                <h3>The master branch is the "live" branch of the files. From the master you can branch off and make changes
-                    without the master being affected.
-                </h3>
-                <h2>
-                    <u>FETCH</u>
-                </h2>
-                <h3>Fetching is getting the latest changes from the repository allowing you to compare what is on your local
-                    machine as opposed to in your repository.
+                    <h2>
+                        <u>PULL</u>
+                    </h2>
+                    <h3>A pull is where you take the online changes and merge them into your local copy of the repository. This
+                        is useful for if you work on two different machines and need to keep them up to date
+
+                    </h3>
+                    <h2>
+                        <u>PUSH</u>
+                    </h2>
+                    <h3>A push is the opposite of a pull where you can push the changes you've made locally to the online repository
+                        for access for someone else or on a different machine.
+                    </h3>
+
+
+
+                </div>
+
+                <div class="attributeshead">
+                    <h1 class="atthead">
+                        Misc.
+                    </h1>
+
+                    <h2>
+                        <u>REPOSITORY</u>
+                    </h2>
+                    <h3>A repository is your online folder used for working on files. It stores every single commit and allows
+                        you to keep track of all changes. Repository's allow you to work on the project with multiple people.
+                    </h3>
+
+                    <h2>
+                        <u>MASTER</u>
+                    </h2>
+                    <h3>The master branch is the "live" branch of the files. From the master you can branch off and make changes
+                        without the master being affected.
+                    </h3>
+                    <h2>
+                        <u>FETCH</u>
+                    </h2>
+                    <h3>Fetching is getting the latest changes from the repository allowing you to compare what is on your local
+                        machine as opposed to in your repository.</h3>
 
                     <h2>
                         <u>GITHUB PAGES</u>
                     </h2>
                     <h3>GitHub pages is the static site hosting service that allows you to share your site with other people.
                         GitHub pages doesn't support server side coding such as PHP but it is ideal for hosting website in
-                        HTML, CSS and JS.
+                        HTML, CSS and JS.</h3>
 
-                    </h3>
 
+
+                </div>
             </div>
-        </div>>
-</body>
-<footer>
-    <div class="footer">
-        <div class="socialmediasec">
-            <a href="https://www.facebook.com/">
-                <img class="smedialogo" src="img/facebook.png"  alt="facebook">
-            </a>
-            <a href="https://www.linkedin.com/in/george-r-849b58b1/">
-                <img class="smedialogo" src="img/linkedin.png"  alt="linkedin"> </a>
+        </div>
+    
+
+    <footer>
+        <div class="footer">
+            <div class="socialmediasec">
+                <a href="https://www.facebook.com/">
+                    <img class="smedialogo" src="img/facebook.png" alt="facebook">
+                </a>
+                <a href="https://www.linkedin.com/in/george-r-849b58b1/">
+                    <img class="smedialogo" src="img/linkedin.png" alt="linkedin"> </a>
                 <a href="https://twitter.com/">
-                    <img class="smedialogo" src="img/twitter.png"  alt="twitter"> </a>
-    </div>
-    </div>
-</footer>
+                    <img class="smedialogo" src="img/twitter.png" alt="twitter"> </a>
+            </div>
+        </div>
+    </footer>
+</body>
 
 </html>

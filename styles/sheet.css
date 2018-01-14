@@ -32,6 +32,10 @@ body {
     font-size: 2em;
 }
 
+.navbarlogo {
+    margin-right: 200px;
+}
+
 .navigation {
     margin: 0px;
     color: inherit;
@@ -95,7 +99,7 @@ body {
     position: absolute;
     justify-content: center;
     top: 0;
-    width: 500;
+    width: 500px;
 }
 
 .logotext {
@@ -133,6 +137,8 @@ body {
 .htmlhead {
     font-size: 4em;
     text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .atthead {
@@ -194,9 +200,13 @@ body {
 .jobhead {
     text-align: center;
     font-size: 3.5em;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .jobtext {
+    display: flex;
+    flex-direction: row;
     font-size: 1.7em;
 }
 
@@ -261,4 +271,91 @@ body {
     margin-left: 50px;
     margin-right: 130px;
     height: auto;
+}
+
+
+/*Practices page */
+
+.practices {
+    display: flex;
+}
+
+.uibox {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.uileft {
+    flex: 1;
+    order: 1;
+    margin-left: 300px;
+    margin-right: 50px;
+    /*  background-color: blue; Used in testing */
+    width: 300px;
+}
+
+.uiright {
+    flex: 1;
+    order: 2;
+    margin-right: 300px;
+    margin-left: 50px;
+    /*   background-color: aquamarine; Used in testing */
+    width: 300px;
+}
+
+.uihead {
+    text-align: center;
+    font-size: 2em;
+    height: 50px;
+}
+
+.uitext {
+    font-size: 1.7em;
+}
+
+
+/* http://jsfiddle.net/L7XCD/1/ Found here */
+
+.imagelink {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+
+.imagelink:hover {
+    opacity: 0.6;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* Reflection page */
+
+.reftext {
+    text-align: center;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.bot3 {
+    display: flex;
+    margin-top: 100px;
+}
+
+.cssval {
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
 }
